@@ -1,0 +1,12 @@
+.bigButton {
+    font-size: 20px;
+    padding: 10px 10px;
+    width: calc(100/3);
+}
+
+.calc-interface{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    margin-top: 10px;
+}

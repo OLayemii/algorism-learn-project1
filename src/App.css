@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 .App {
   text-align: center;
 }
@@ -30,4 +33,87 @@
   to {
     transform: rotate(360deg);
   }
+}
+.strike {
+  text-decoration: line-through;
+}
+
+.calculatorBody{
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.simpleInterestInterface{
+  margin: 130px auto;
+}
+
+.simpleInterestInterface input{
+  margin: 10px 0;
+}
+
+.calculatorBody button {
+  //margin: 10px;
+  padding: 20px;
+}
+
+.computeBtn{
+  width: 100%;
+  height: 70px;
+}
+
+#nav {
+  display: flex;
+  list-style: none;
+  padding: 30px 10px;
+  background: black;
+  margin-top: 0;
+}
+
+#nav li {
+  padding: 0 30px
+}
+
+#nav a {
+  color: grey;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#nav a:hover{
+  color: #FFF;
+}
+
+.container{
+  padding: 0 20px;
+}
+
+#itemValue, input{
+  border-radius: 3px;
+  border: 1px solid grey;
+  font-size: 20px !important;
+  font-family: "Roboto", arial;
+  height: 50px;
+  padding: 0 10px;
+}
+
+.container > button, button {
+  color: #fff;
+  background-color: #0969b6;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 0px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.container h1 {
+  text-transform: uppercase;
+  color: #2c3b41;    
+}
+li.todo-item {
+  font-size: 1.3em;
+  text-transform: capitalize;
+  list-style: none;
+  padding: 10px 0;
 }
